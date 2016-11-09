@@ -1,5 +1,5 @@
 #ruby - just-works
-sum = 0 
+total = 0 
 n = 1
 
 def fibonacci(n)
