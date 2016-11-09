@@ -37,4 +37,3 @@ while c < four_mil
 end
 
 p sum
-
