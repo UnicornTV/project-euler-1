@@ -10,7 +10,7 @@ def fibonacci(n)
 	end
 end
 
-while fibonacci(n) < 4_000_000
+while fibonacci(n) <= 4_000_000
 	if fibonacci(n) % 2 == 0
 		total += fibonacci(n)
 	end
@@ -27,7 +27,7 @@ i = [1,1]
 c = 0
 sum = 0
 
-while c < four_mil
+while c <= four_mil
 	c = i[0] + i[1]
 	i[0] = i[1]
 	i[1] = c
