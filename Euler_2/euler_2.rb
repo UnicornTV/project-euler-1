@@ -22,12 +22,11 @@ p total
 
 #ruby - refactored
 
-four_mil = 4_000_000
 i = [1,1]
 c = 0
 sum = 0
 
-while c <= four_mil
+while c <= 4_000_000
 	c = i[0] + i[1]
 	i[0] = i[1]
 	i[1] = c
