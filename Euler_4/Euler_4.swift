@@ -1,7 +1,4 @@
-var total: Int = 0
-var a: Int = 999
-var b: Int = 999
-
+var total = 0, a = 999, b = 999
 
 func isPalindrome(n: Int) -> Bool
 {
