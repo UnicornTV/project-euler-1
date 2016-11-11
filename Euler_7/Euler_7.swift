@@ -6,11 +6,13 @@ func isPrime(n: Int) -> Bool{
   	return false
   }
   let n_double = Double(n)
+  //casting to double so we can use sqrt
   let max = sqrt(n_double)
   var divisor = 3.0
 
   while divisor <= max{
   	var remain = n_double.truncatingRemainder(dividingBy: divisor)
+    //must use 'truncatingRemainder' in place of %
   	if remain == 0{
   		return false
   	}
