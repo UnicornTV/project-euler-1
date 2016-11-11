@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	fmt.Println(difference(100))
+	defer timeTrack(time.Now(), "Euler_6")
 }
 func difference(n int) int {
 	sum, square, diff := 0, 0, 0
@@ -17,4 +21,9 @@ func difference(n int) int {
 	diff = square - sum
 
 	return diff
+}
+
+func timeTrack(start time.Time, name string) {
+	elapsed := time.Since(start)
+	fmt.Printf("%s took %s\n", name, elapsed)
 }
