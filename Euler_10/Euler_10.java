@@ -12,7 +12,6 @@ public class Euler_10{
     }
     sum += 2;
     System.out.println(sum);
-    System.out.println(isPrime(3));
   }
   public static boolean isPrime(int n)
   {
