@@ -1,20 +1,18 @@
-class Euler_7{
-  public static void main(String[] args) {
-    int count = 6;
-    int check = 14;
+import java.math.*;
 
-    while (check < 200000){
-      if (isPrime(check)){
-        count++;
+public class Euler_10{
+  public static void main(String[] args) {
+    long sum = 0;
+    int count = 1;
+    while(count < 2000000){
+      if(isPrime(count)){
+        sum += count;
       }
-      if(count == 10001){
-        break;
-      }
-      check++;
+      count += 2;
     }
-    System.out.println(check);
+    sum += 2;
+    System.out.println(sum);
   }
-  
   public static boolean isPrime(int n)
   {
     if (n == 1)
