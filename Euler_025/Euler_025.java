@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-public class Euler_25
+public class Euler_025
 {
   public static void main(String[] args)
   {

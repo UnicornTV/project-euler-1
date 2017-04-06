@@ -1,6 +1,6 @@
 import java.math.*;
 
-public class Euler_10{
+public class Euler_010{
   public static void main(String[] args) {
     long sum = 0;
     int count = 1;
