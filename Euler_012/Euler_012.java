@@ -17,10 +17,10 @@ public class Euler_012{
     //how to compute a triangle number: triangle = (n * n+1)/2
     return term = term * (term+1) / 2;
   }
-  
+
   public static long findFactors(long factored){
     long factors = 0;
-    //test against the square root to check for perfect squares
+    //test against the square root to check for squares as to reduce number search
     int limit = (int)Math.sqrt(factored);
     //ternary operator to check for primes
     for(int i = 1; i<=limit; i++){
