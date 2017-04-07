@@ -3,6 +3,8 @@ import java.math.*;
 public class Euler_013{
   public static void main(String[] args) {
      long begin = System.currentTimeMillis();
+     /* it literally took me longer to add quotes and commas
+     than it did to solve the problem */
      String[] hundred_50digit_numbers =
      {"37107287533902102798797998220837590246510135740250",
       "46376937677490009712648124896970078050417018260538",
