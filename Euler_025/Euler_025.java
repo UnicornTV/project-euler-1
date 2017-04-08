@@ -5,7 +5,7 @@ public class Euler_025
   public static void main(String[] args)
   {
     int count = 2;
-    BigInteger sum = new BigInteger("0");
+    BigInteger sum = BigInteger.ZERO;
     BigInteger thousandDigits = (new BigInteger("10")).pow(999);
     BigInteger[] bigFib = {BigInteger.ONE, BigInteger.ONE};
 
