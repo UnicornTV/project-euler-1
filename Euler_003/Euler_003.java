@@ -1,4 +1,4 @@
-class Euler_3{
+class Euler_003{
   public static void main(String[] args) {
     // writing long integer literals requires
     // that you add an 'L' to the end or else you

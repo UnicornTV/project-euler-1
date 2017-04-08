@@ -1,4 +1,4 @@
-class Euler_5{
+class Euler_005{
   public static void main(String[] args) {
     int start = 1;
     int finish = 20;

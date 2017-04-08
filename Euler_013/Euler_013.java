@@ -1,6 +1,6 @@
 import java.math.*;
 
-public class Euler_013{
+class Euler_013{
   public static void main(String[] args) {
      long begin = System.currentTimeMillis();
      /* it literally took me longer to add quotes and commas

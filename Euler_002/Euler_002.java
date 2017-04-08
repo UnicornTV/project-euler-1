@@ -1,4 +1,4 @@
-class Euler_2{
+class Euler_002{
   public static void main(String[] args) {
     int c = 0;
     int sum = 0;

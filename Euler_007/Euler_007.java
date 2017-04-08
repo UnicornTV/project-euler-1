@@ -1,4 +1,4 @@
-class Euler_7{
+class Euler_007{
   public static void main(String[] args) {
     int count = 6;
     int check = 14;

@@ -1,4 +1,4 @@
-class Euler_1_Solution{
+class Euler_001{
   public static void main(String[] args) {
     int counter = 0;
     for(int i = 3; i < 1000; i++){

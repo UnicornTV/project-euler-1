@@ -1,4 +1,4 @@
-public class Euler_014{
+class Euler_014{
   public static void main(String[] args) {
     long begin = System.currentTimeMillis();
 
@@ -6,7 +6,7 @@ public class Euler_014{
     int chain = 0;
     int longest_chain = 0;
     int longest_chain_starting_number = 0;
-    
+
     for(int startingNumber = 999999; startingNumber>=1; startingNumber--){
       chain = 0;
       n = startingNumber;

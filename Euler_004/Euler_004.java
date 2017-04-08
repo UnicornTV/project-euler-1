@@ -1,4 +1,4 @@
-class Euler_4{
+class Euler_004{
   public static void main(String[] args) {
     int total = 0;
     int a = 999;

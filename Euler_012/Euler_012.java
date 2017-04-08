@@ -1,6 +1,6 @@
 import java.math.*;
 
-public class Euler_012{
+class Euler_012{
   public static void main(String[] args) {
     long begin = System.currentTimeMillis();
     for(int i = 0; true; i++){

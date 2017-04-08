@@ -1,4 +1,4 @@
-public class Euler_011{
+class Euler_011{
   public static void main(String[] args) {
     int _20x20grid [][] = {
         {8,02,22,97,38,15,00,40,00,75,04,05,07,78,52,12,50,77,91,8},

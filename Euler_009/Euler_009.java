@@ -1,7 +1,6 @@
 import java.math.*;
 
-public class Euler_9
-{
+class Euler_009{
     static int c = 0;
 
     public static void main(String[] args) {

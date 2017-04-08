@@ -1,4 +1,4 @@
-class Euler_6{
+class Euler_006{
   public static void main(String[] args) {
     System.out.println(difference(100));
   }
