@@ -121,7 +121,7 @@ class Euler_017{
           //tens number
           number *= 10;
           process_digit_letter_count += wordCounts.get(number);
-          //add and
+          //add 'and' IF not 'n00' 
           process_digit_letter_count += (digits % 100 != 0 ? 3 : 0);
         }else if (i == 2){
           //ones number
