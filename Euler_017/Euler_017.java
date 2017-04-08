@@ -78,34 +78,41 @@ class Euler_017{
     put(900,11);
     //One Thousand
     put(1000,11);
-    //7777 or & is for "and"
-    put(7777,3);
   }};
+
   public static void main(String[] args) {
+    long begin = System.currentTimeMillis();
+
     int number_of_letters = 0;
 
-    for(int i = 1;i <= 1000;i++){
-      if(i<20){
-        number_of_letters += wordCounts.get(i);
-      }else{
+    for(int i = 1;i < 1001;i++){
         number_of_letters += processDigits(i);
       }
-    }
-    //
-    System.out.println(processDigits(777));
+    //three hundred and three
+    System.out.println(processDigits(303));
     System.out.println(number_of_letters);
+
+    long end = System.currentTimeMillis();
+		System.out.println(end-begin + "ms");
   }
+
   static int processDigits(int digits){
     int process_digit_letter_count = 0;
     String digitString = Integer.toString(digits);
+
+    if (digits < 20){
+      return wordCounts.get(digits);
+    }
 
     for(int i = 0; i < digitString.length(); i++){
       char digit = digitString.charAt(i);
       int number = Character.getNumericValue(digit);
 
-      if(digitString.length() == 4){
+      if(digitString.length() == 4)
+      {
         process_digit_letter_count += wordCounts.get(1000);
-      }else if(digitString.length() > 2){
+      }else if(digitString.length() > 2)
+      {
         //hundreds number
         if(i == 0){
           number *= 100;
@@ -120,12 +127,14 @@ class Euler_017{
           //ones number
           process_digit_letter_count += wordCounts.get(number);
         }
-      }else{
+      }else
+      {
         //tens number
         if(i == 0){
           number *= 10;
           process_digit_letter_count += wordCounts.get(number);
         }else{
+          //ones number
           process_digit_letter_count += wordCounts.get(number);
         }
       }
