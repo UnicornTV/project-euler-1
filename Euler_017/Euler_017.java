@@ -85,16 +85,14 @@ class Euler_017{
     int number_of_letters = 0;
 
     for(int i = 1;i <= 1000;i++){
-      //System.out.println(i);
       if(i<20){
         number_of_letters += wordCounts.get(i);
-        
       }else{
         number_of_letters += processDigits(i);
       }
     }
-
-    System.out.println(processDigits(800));
+    //
+    System.out.println(processDigits(777));
     System.out.println(number_of_letters);
   }
   static int processDigits(int digits){
@@ -117,10 +115,7 @@ class Euler_017{
           number *= 10;
           process_digit_letter_count += wordCounts.get(number);
           //add and
-          if(digitString.charAt(1) == '0' && digitString.charAt(2) == '0'){
-          }else{
-            process_digit_letter_count += wordCounts.get(7777);
-          }
+          process_digit_letter_count += (digits % 100 != 0 ? 3 : 0);
         }else if (i == 2){
           //ones number
           process_digit_letter_count += wordCounts.get(number);
