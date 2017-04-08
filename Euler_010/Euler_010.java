@@ -13,7 +13,7 @@ public class Euler_010{
     sum += 2;
     System.out.println(sum);
   }
-  public static boolean isPrime(int n)
+  static boolean isPrime(int n)
   {
     if (n == 1)
     {

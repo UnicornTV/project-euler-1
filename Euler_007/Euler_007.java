@@ -14,8 +14,8 @@ class Euler_7{
     }
     System.out.println(check);
   }
-  
-  public static boolean isPrime(int n)
+
+  static boolean isPrime(int n)
   {
     if (n == 1)
     {

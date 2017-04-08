@@ -16,7 +16,7 @@ public class Euler_9
       }
     }
 
-    public static Boolean isSquare(int n){
+    static Boolean isSquare(int n){
       int root = (int)Math.sqrt(n);
       if (root * root == n){
         c = root;

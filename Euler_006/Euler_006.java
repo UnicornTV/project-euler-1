@@ -3,7 +3,7 @@ class Euler_6{
     System.out.println(difference(100));
   }
 
-  public static int difference(int n){
+  static int difference(int n){
     int sum = 0;
     int diff = 0;
     int square = 0;

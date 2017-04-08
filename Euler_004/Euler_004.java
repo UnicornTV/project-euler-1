@@ -18,7 +18,7 @@ class Euler_4{
     System.out.println(total);
   }
 
-  public static boolean isPalindrome(int n){
+  static boolean isPalindrome(int n){
     int result = 0;
     int remainder;
     int initial = n;
