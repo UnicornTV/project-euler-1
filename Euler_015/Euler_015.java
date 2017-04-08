@@ -12,8 +12,6 @@ class Euler_015{
     _n2 = _n2.multiply(_n2);
 
     latticePathCount = _2n.divide(_n2);
-    System.out.println(_2n);
-    System.out.println(_n2);
     System.out.println(latticePathCount);
     long end = System.currentTimeMillis();
 		System.out.println(end-begin + "ms");

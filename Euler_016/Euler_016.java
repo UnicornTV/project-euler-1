@@ -3,8 +3,10 @@ import java.math.*;
 class Euler_016{
   public static void main(String[] args) {
     long begin = System.currentTimeMillis();
+    
     BigInteger _2_to_the_thousand = new BigInteger("2");
     _2_to_the_thousand = _2_to_the_thousand.pow(1000);
+
     System.out.println(sumTheDigits(_2_to_the_thousand));
     long end = System.currentTimeMillis();
 		System.out.println(end-begin + "ms");
